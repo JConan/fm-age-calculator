@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.DlYhCuPG.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.DGbaPB5E.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CBNso1J_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.C8iUEcQw.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CtbWrGNo.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Dlc-miTh.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CEBRpjt4.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BvSzVV4L.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.MCFaBA4n.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <form class="calculator svelte-2fa2gn"><section class="inputs error svelte-1j9cwlk"><label for="day">day</label> <input id="day" type="text" class="svelte-1j9cwlk" value=""> <span class="svelte-1j9cwlk"></span><label for="month">month</label> <input id="month" type="text" class="svelte-1j9cwlk" value=""> <span class="svelte-1j9cwlk"></span><label for="year">year</label> <input id="year" type="text" class="svelte-1j9cwlk" value=""> <span class="svelte-1j9cwlk"></span> </section> <section class="control svelte-34qs0" data-svelte-h="svelte-pz8b5k"><button type="submit" class="svelte-34qs0"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" class="svelte-34qs0"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"></path></g></svg></button> </section> <section class="output svelte-9yctgf"><p><span>--</span> years</p><p><span>--</span> months</p><p><span>--</span> days</p> </section> </form> 
+			
+			<script>
+				{
+					__sveltekit_uvf1f7 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/fm-age-calculator"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CBNso1J_.js"),
+						import("./_app/immutable/entry/app.Dlc-miTh.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
